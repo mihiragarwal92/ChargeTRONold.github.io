@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse CO2 Calculator</title>
+</head>
+<body>
+    <h1>Reverse CO2 Calculator</h1>
+    <h4>Enter the amount of CO2 you saved and calculate the distance you could have travelled</h4>
+    <br>
+    <input id="co2" type="text" placeholder="amount of co2"/>
+    <select id="unit">
+        <option>g</option>
+        <option>kg</option>
+        <option>T</option>
+    </select>
+    <button onclick="button_press()">
+        Calculate
+    </button>
+    <p id="result"></p>
+
+    <svg viewbox="0 0 100 25">
+        <path fill="#9EAFFD" opacity="0.5" d="M0 30 V15 Q30 3 60 15 V30z" />
+        <path fill="#9EAFFD" d="M0 30 V12 Q30 17 55 12 T100 11 V30z" />
+    </svg>
+      
+    
+</body>
+<script>
+const $ = (id) => document.getElementById(id)
+
+Element.prototype.update = function(newText) {
+    if (newText === this.innerHTML) return this
+    this.innerHTML = newText 
+    return this
+}
+
+Element.prototype.append = function(newText) {
+    this.innerHTML += newText
+    return this
+}
+
+// source: https://www.statista.com/statistics/1185559/carbon-footprint-of-travel-per-kilometer-by-mode-of-transport/
+// accessed: 05.10.2022
+const means_of_transport = [
+    { co2: 150, name: "Plane - International" },
+    { co2: 255, name: "Plane - Domestic"},
+    { co2: 192, name: "Car - Petrol"},
+    { co2: 171, name: "Car - Diesel"},
+    { co2: 105, name: "Bus"}
+]
+
+const calculate = (total_co2, per_km_co2, unit) => {
+    switch(unit.toLowerCase()) {
+        case "g":
+            return parseInt(total_co2 / per_km_co2)
+            break;
+        case "kg":
+            return parseInt((total_co2 * 1000) / per_km_co2)
+            break;
+        case "t":
+            return parseInt(((total_co2 * 1000) * 1000) / per_km_co2)
+            break;
+    } 
+}
+
+const button_press = () => {
+    
+    const amountco2 = $("co2").value
+    const unit = $("unit").value
+    
+    if (amountco2.length < 1) return $("result").update("Enter a co2 value to continue")
+    
+    const amountco2Num = parseInt(amountco2)
+    
+    if (Number.isNaN(amountco2Num)) {
+        // not a number
+        return $("result").update("Please enter a vaild number")
+    }
+    
+    let result_string = ""
+    
+    for (mot in means_of_transport) {
+        result_string += means_of_transport[mot].name + ": " + calculate(amountco2Num, means_of_transport[mot].co2, unit) + "km <br> "
+    }
+    
+    $("result").update(result_string)
+
+}
+</script>
+<style>
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    html {
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+    }
+
+    h1 {
+        font-style: italic;
+    }
+
+    h4 {
+        font-style: italic;
+        color:silver
+    }
+
+    input, select, button {
+        border-radius: 4px;
+        padding: 4px;
+        margin-top: 4px;
+        padding-top: 4px;
+        border-width: 2px;
+    }
+
+    svg {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+</style>
+</html>

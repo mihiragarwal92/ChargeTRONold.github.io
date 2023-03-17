@@ -1,0 +1,121 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the ChargeTron website.">
+    <link href="../css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/userapp/sass/styles.fdd2262f893f.css">
+    <link rel="stylesheet" type="text/css" href="../static/userapp/stylelayout.ef41892495a4.css">
+
+    <link rel="stylesheet" href="../ajax/libs/animate.css/4.0.0/animate.min.css">
+    <style>
+        .fas {
+            font-family: 'FontAwesome' !important;
+        }
+    </style>
+    
+<title>Sign Up</title>
+
+</head>
+
+<body>
+    <script src="../dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <style>
+        df-messenger {
+            --df-messenger-send-icon: #1eff00;
+            --df-messenger-button-titlebar-color: #90ff82;
+        }
+    </style>
+    <df-messenger intent="WELCOME" chat-title="ChargeTron chatbot" agent-id="348918d8-72c3-486c-88b3-17ea3047c1f6" language-code="en" chat-icon="https://www.synaptive.com/img/chatbot.png" alt="chatbot-icon">
+    </df-messenger>
+    <header>
+        <div class="logo">
+            <a href="../index.htm"><img src="../static/userapp/svg/logo.00fcffa89a50.svg" alt="logo"></a>
+        </div>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.htm" class="active">Home</a></li>
+                <li><a href="index.htm" class="active">About us </a></li>
+                <li><a href="index.htm" class="active">Contact us </a></li>
+                <li><a href="/convert/" role="button">Convert</a></li>
+                <li><a href="../accounts/login/index.htm" class="login" role="button">Log in</a></li>
+                <li><a href="index.htm" class="signup" role="button">Sign up</a></li>
+                
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    
+
+<main>
+    <h1>Sign Up</h1>
+    <div class="signupOptions">
+        <a href="../registerConsumer/index.htm"><img src="/static/userapp/svg/consumer_art.fac0d9576d8b.svg" src="consumer"></a>
+        <a href="../registerProvider/index.htm"><img src="../static/userapp/svg/provider_art.9a1ed3673cf2.svg" alt="provider"></a>
+    </div>
+
+    <p>Already have account? <span><a href="../accounts/login/index.htm">Log in</a></span> instead.</p>
+</main>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="col-1">
+                <img src="../static/userapp/svg/logo-white.ee78654beb88.svg" alt="logo">
+                <div class="links">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="col-2">
+                <p><label for="newsletter">Subscribe to our Newsletter</label></p>
+                <div class="input-group">
+                    <label for="newsletter" style="display: none;">Subscribe to our Newsletter</label>
+                    <input type="email" id="newsletter" name="newsletter" placeholder="Email Address" style="color:white;">
+                    <div class="submit"><a href="#">OK</a></div>
+                </div>
+            </div>
+            <div class="social">
+                <i class="fa fa-2x fa-facebook-f"></i>
+                <i class="fa fa-2x fa-instagram"></i>
+                <i class="fa fa-2x fa-twitter"></i>
+            </div>
+            <div class="address">
+                <h3>Address:<br></h3>
+                <p>Sector 62 <br> Noida, Gautam Buddh Nagar,<br> UttarPradesh 201301 <br>INDIA⛳</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;ReversePointers, Inc.</p>
+        </div>
+    </footer>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="../jquery-3.4.1.js" crossorigin="anonymous"></script>
+    <script src="../npm/popper.js%401.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle').toggleClass('active');
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+    
+
+
+    
+</body>
+
+</html>

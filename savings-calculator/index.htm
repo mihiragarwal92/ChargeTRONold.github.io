@@ -1,0 +1,329 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the EverythingEV website.">
+    <link href="../css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/userapp/sass/styles.fdd2262f893f.css">
+    <link rel="stylesheet" type="text/css" href="../static/userapp/stylelayout.ef41892495a4.css">
+
+    <link rel="stylesheet" href="../ajax/libs/animate.css/4.0.0/animate.min.css">
+    <style>
+        .fas {
+            font-family: 'FontAwesome' !important;
+        }
+    </style>
+    
+<title>
+    Monthly Savings and Mileage Calculator
+</title>
+
+</head>
+
+<body>
+    <script src="../dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <style>
+        df-messenger {
+            --df-messenger-send-icon: #1eff00;
+            --df-messenger-button-titlebar-color: #90ff82;
+        }
+    </style>
+    <df-messenger intent="WELCOME" chat-title="ChargeTron chatbot" agent-id="348918d8-72c3-486c-88b3-17ea3047c1f6" language-code="en" chat-icon="https://www.synaptive.com/img/chatbot.png" alt="chatbot-icon">
+    </df-messenger>
+    <header>
+        <div class="logo">
+            <a href="../index.htm"><img src="../static/userapp/svg/logo.00fcffa89a50.svg" alt="logo"></a>
+        </div>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.htm" class="active">Home</a></li>
+                <li><a href="index.htm" class="active">About us </a></li>
+                <li><a href="index.htm" class="active">Contact us </a></li>
+                <li><a href="/convert/" role="button">Convert</a></li>
+                <li><a href="../accounts/login/index.htm" class="login" role="button">Log in</a></li>
+                <li><a href="../register/index.htm" class="signup" role="button">Sign up</a></li>
+                
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    
+<main>
+    <div class="savingsBanner">
+        <h1>Savings <br> Calculator</h1>
+        <img src="../static/userapp/svg/savings_art.f0284ce7dcbf.svg">
+    </div>
+    <div class="calculate">
+        <h2>Calculate your monthly savings if you're switching to Electric Vehicles.</h2>
+        <div class="input-group">
+            <div class="brand">
+                <h3>Step 1</h3>
+                <div class="step1">
+                    <p>Choose the <br> Vehicle Brand</p>
+                    <select name="details" id="details">
+                        <option selected="" disabled="true">-- Select an EV --</option>
+                        
+                        <option value="22 200">Maruti Suzuki WagonR EV</option>
+                        
+                        <option value="28.8 250">Renault City K-ZE</option>
+                        
+                        <option value="25 150">Ford Aspire EV</option>
+                        
+                        <option value="44.5 300">MG eZS</option>
+                        
+                        <option value="40 400">Nissan Leaf</option>
+                        
+                        <option value="40 140">Mahindra eKUV100</option>
+                        
+                        <option value="59.1 350">Mahindra XUV300 
+Electric</option>
+                        
+                        <option value="30 250">Tata Altroz</option>
+                        
+                        <option value="24.2 120">Hyundai Aura. </option>
+                        
+                        <option value="30.2 300">Tata Nexon EV 2020</option>
+                        
+                        <option value="21.5 200">Tata Tigor EV 2019.</option>
+                        
+                        <option value="13.9 90">Mahindra e2o    </option>
+                        
+                        <option value="21.2 110">Mahindra e-Verito.</option>
+                        
+                        <option value="39.2 449">Hyundai KONA 
+Electric</option>
+                        
+                        <option value="64 212">    KIA Soul EV
+</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="distance">
+                <h3>Step 2</h3>
+                <div class="step3">
+                    <p>Enter the average
+                        <br>distance you travel
+                        <br>with car everyday</p>
+                    <div class="selection">
+                        <input type='number' id='nameField' maxlength="4"> km(s)
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="result-group mobile" id="results" style="margin-bottom: 100px;">
+        <div class="numeric">
+            <p class="title">Cost</p>
+            <div class="costings">
+                <p class="cars">For EV:<span id='EV'>0</span><span class="per">/month</span></p>
+                <p class="cars">For Fuel Cars:₹ <span id='nameDisplay'>0</span><span class="per">/month</span></p>
+            </div>
+        </div>
+        <div class="numeric">
+            <p class="title">Your Estimated Savings*</p>
+            <div class="perMonth">
+                <p class="value">&#8377;<span id='monthly_savings'>0</span><span class="per">/month</span></p>
+            </div>
+            <div class="perYear">
+                <p class="value">&#8377;<span id='yearly_savings'>0</span><span class="per">/year</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="calculate">
+        <h2>Calculate the Distance you can travel.</h2>
+        <div class="input-group" style="grid-template-columns: 1fr 1fr;">
+            <div class="brand">
+                <h3>Step 1</h3>
+                <div class="step1">
+                    <p>Choose the <br> Vehicle Brand</p>
+                    <select name="range" id="range1">
+                        <option selected="" disabled="true">-- Select an EV --</option>
+                        
+                        <option value="200">Maruti Suzuki WagonR EV</option>
+                        
+                        <option value="250">Renault City K-ZE</option>
+                        
+                        <option value="150">Ford Aspire EV</option>
+                        
+                        <option value="300">MG eZS</option>
+                        
+                        <option value="400">Nissan Leaf</option>
+                        
+                        <option value="140">Mahindra eKUV100</option>
+                        
+                        <option value="350">Mahindra XUV300 
+Electric</option>
+                        
+                        <option value="250">Tata Altroz</option>
+                        
+                        <option value="120">Hyundai Aura. </option>
+                        
+                        <option value="300">Tata Nexon EV 2020</option>
+                        
+                        <option value="200">Tata Tigor EV 2019.</option>
+                        
+                        <option value="90">Mahindra e2o    </option>
+                        
+                        <option value="110">Mahindra e-Verito.</option>
+                        
+                        <option value="449">Hyundai KONA 
+Electric</option>
+                        
+                        <option value="212">    KIA Soul EV
+</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="distance">
+                <h3>Step 2</h3>
+                <div class="step3">
+                    <p>Enter the current
+                        <br>charging status
+                        <br>of your car</p>
+                    <div class="selection">
+                        <input type="number" id='batteryPercent' aria-valuemin="0" aria-valuemax="100"><span style="font-size: 2rem;">%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-group disclaimer" style="height:fit-content">
+        <div class="numeric" style="height:fit-content">
+            <p class="title">Distance You can travel</p>
+            <div class="costings">
+                <p class="cars"><span class="cost" id='mileage'>0</span> km(s)</p>
+            </div>
+        </div>
+    </div>
+    <div class="result-group disclaimer" style="height:fit-content">
+        <p style="color:#6c757d; font-size: 1rem;">* Disclaimer: This tool is only intended to provide an estimate of
+            potential
+            savings. Actual results will vary. Customers may not realize similar energy
+            savings. Vehicle data is subject to change
+            without notice. This is the estimated residential electricity rate for the
+            utility. This rate may not include tiered or time-of-use rates. Rates change
+            periodically. Utility does not warrant or represent that this data is accurate.
+            In no event shall the utility or its suppliers be liable for any special,
+            indirect or consequential damages or any damages whatsoever, including, but not
+            limited to claims associated with the accuracy of this data or information.
+        </p>
+    </div>
+
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="col-1">
+                <img src="../static/userapp/svg/logo-white.ee78654beb88.svg" alt="logo">
+                <div class="links">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="col-2">
+                <p><label for="newsletter">Subscribe to our Newsletter</label></p>
+                <div class="input-group">
+                    <label for="newsletter" style="display: none;">Subscribe to our Newsletter</label>
+                    <input type="email" id="newsletter" name="newsletter" placeholder="Email Address" style="color:white;">
+                    <div class="submit"><a href="#">OK</a></div>
+                </div>
+            </div>
+            <div class="social">
+                <i class="fa fa-2x fa-facebook-f"></i>
+                <i class="fa fa-2x fa-instagram"></i>
+                <i class="fa fa-2x fa-twitter"></i>
+            </div>
+            <div class="address">
+                <h3>Address:<br></h3>
+                <p>Sector 62 <br> Noida, Gautam Buddh Nagar,<br> UttarPradesh 201301 <br>INDIA⛳</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;ReversePointers, Inc.</p>
+        </div>
+    </footer>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="../jquery-3.4.1.js" crossorigin="anonymous"></script>
+    <script src="../npm/popper.js%401.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle').toggleClass('active');
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+    
+<!--Savings Calculation Logic -->
+<script>
+    window.onload = function () {
+
+        var nameField = document.getElementById('nameField');
+        var perKmPetrolCost = 3.4;  // Average value of petrol per km in last 10 years
+        
+
+        updateNameDisplay();
+
+        setInterval(updateNameDisplay, 100);
+
+        function updateNameDisplay() {
+            var details = document.getElementById("details").value;
+            var res = details.split(" ");
+            var kWh = Number(res[0]/res[1]) // Average kwh of an EV
+            var kms = nameField.value || 0;
+            var total_cost_of_FV_per_month = Math.round(perKmPetrolCost * kms * 30);
+            var total_cost_of_EV_per_month = Math.round(kWh * kms * 30 * 5);
+            var monthly_savings = Math.round(total_cost_of_FV_per_month - total_cost_of_EV_per_month);
+            var yearly_savings = Math.round(monthly_savings * 12);
+
+            if (kms > 0) {
+                document.getElementById('nameDisplay').innerHTML = total_cost_of_FV_per_month;
+                document.getElementById('EV').innerHTML = total_cost_of_EV_per_month;
+                document.getElementById('monthly_savings').innerHTML = monthly_savings;
+                document.getElementById('yearly_savings').innerHTML = yearly_savings;
+            }
+        }
+        var battery = document.getElementById('batteryPercent');
+        var avgRangeOfEV = 234.73;  // Average range of EV - Calculated from the list of vehicles in database
+
+        update();
+
+        setInterval(update, 100);
+        
+            function update() {
+            var batteryPercent = battery.value || 0;
+
+            var range = document.getElementById("range1").value;
+            var mileage = Math.round((range * batteryPercent) / 100);
+
+            if (batteryPercent > 0) {
+                document.getElementById('mileage').innerHTML = mileage;
+            }
+        }
+
+    };
+</script>
+
+</body>
+
+</html>

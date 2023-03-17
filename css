@@ -1,0 +1,24 @@
+﻿@font-face {
+  font-family: 'Amaranth';
+  font-style: italic;
+  font-weight: 400;
+  src: url(s/amaranth/v18/KtkoALODe433f0j1zMnALdKCww.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 400;
+  src: url(s/amaranth/v18/KtkuALODe433f0j1zMnFHdU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 700;
+  src: url(s/amaranth/v18/KtkpALODe433f0j1zMF-OMWl42Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Artifika';
+  font-style: normal;
+  font-weight: 400;
+  src: url(s/artifika/v21/VEMyRoxzronptCuxu5Wq7DQ.ttf) format('truetype');
+}

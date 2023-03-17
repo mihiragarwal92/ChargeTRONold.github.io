@@ -1,0 +1,141 @@
+﻿
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="../../font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/userapp/login_style.53710b3c1c74.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../../index.htm"><img src="logo.00fcffa89a50.svg" alt="logo"></a>
+        </div>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../../index.htm" class="active">Home</a></li>
+                <li><a href="index.htm" class="active">About us </a></li>
+                <li><a href="index.htm" class="active">Contact us </a></li>
+                <li><a href="index.htm" class="login" role="button">Log in</a></li>
+                <li><a href="../../register/index.htm" class="signup" role="button">Sign up</a></li>
+                
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <div class="container" style="border-radius: 20px; margin-top:20px!important;">
+        <div class="row" style="border-radius: 20px;">
+            <div class="col-md-5 mx-auto" style="border-radius: 20px;">
+                <div class="card card-signin my-5" style="border-radius: 20px;background-color: rgba(238, 238, 238, 0.6);">
+                    <div class="card-body" style="border-radius: 20px;">
+                        <h1 class="card-title text-center" style="margin-top: 20px;"><b>Login</b></h1>
+                        <form method="POST" action="/accounts/login/">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="bWN3xm1qH7SxtU46CG8xNS1lFfsDL7FBYX1WFAKTYqdZpO0ZI9W9VaRZWZNdE4av"> 
+
+<div id="div_id_login" class="form-group"> <label for="id_login" class=" requiredField">
+                Username<span class="asteriskField">*</span> </label> <div> <input type="text" name="login" placeholder="Username" autofocus="autofocus" maxlength="150" class="textinput textInput form-control" required="" id="id_login"> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class=" requiredField">
+                Password<span class="asteriskField">*</span> </label> <div> <input type="password" name="password" placeholder="Password" class="textinput textInput form-control" required="" id="id_password"> </div> </div> <div class="form-group"> <div id="div_id_remember" class="form-check"> <input type="checkbox" name="remember" class="checkboxinput form-check-input" id="id_remember"> <label for="id_remember" class="form-check-label">
+                    Remember Me
+                </label> </div> </div>
+
+                            <div class=" text-center">
+                                <button class="btn btn-lg btn-primary" style="font-size: large;" type="submit">Sign
+                                    in</button>
+                                <br>
+                                <small class="text-muted">
+                                    <a href="/accounts/password/reset/">Forgot Password?</a>
+                                    <br>
+                                </small><br>
+                                <a class="btn btn-lg btn-info mt-2" href="../../register/index.htm">New Here? <br>Sign Up</a>
+                                <a class="btn btn-lg btn-info mt-2" href="/accounts/google/login/?next=%2FCharge-Pooling%2F">Sign in
+                                    with
+                                    Google <br><h6>(Only consumers)</h6></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="column-1">
+                <img src="../../static/userapp/svg/logo-white.ee78654beb88.svg" alt="logo">
+                <div class="links">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="column-2">
+                <p>Subscribe to our Newsletter</p>
+                <div class="subscribe-group">
+                    <input type="email" name="newsletter" placeholder="Email Address">
+                    <div class="submit"><a href="#">OK</a></div>
+                </div>
+            </div>
+            <div class="social">
+                <i class="fa fa-2x fa-facebook-f"></i>
+                <i class="fa fa-2x fa-instagram"></i>
+                <i class="fa fa-2x fa-twitter"></i>
+            </div>
+            <div class="address">
+                <h3>Address:<br></h3>
+                <p>Sector 62 <br> Noida, Gautam Buddh Nagar,<br> UttarPradesh 201301 <br>INDIA⛳</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="margin-bottom:0px">&copy;ReversePointers, Inc.</p>
+        </div>
+    </footer>
+
+    <script src="../../jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var alterClass = function () {
+                var ww = document.body.clientWidth;
+                if (ww < 600) {
+                    $('.navbar').addClass('bg-dark');
+                    $('navbar-toggler-icon').css('color', 'white!important');
+                    $('.navbar-brand').addClass("text-white");
+                    $('.nav-item').removeAttr('style');
+                    $('.nav-item').addClass("text-white");
+                    $('.nav-item').css({ "font-weight": "600", "font-size": "20px" })
+                } else if (ww >= 601) {
+                    $('.navbar').removeClass('bg-dark');
+                    $('.navbar-brand').removeClass("text-white");
+                    $('.nav-item').removeClass("text-white");
+                    $('.nav-item').css({ "padding-right": "15px", "color": "black", "font-weight": "900", "font-size": "25px" });
+                };
+            };
+            $(window).resize(function () {
+                alterClass();
+            });
+            //Fire it when the page first loads:
+            alterClass();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle').toggleClass('active');
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+
+</body>
+
+</html>

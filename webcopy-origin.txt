@@ -1,0 +1,304 @@
+Uri: https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\npm\popper.js@1.16.0\dist\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\ajax\libs\animate.css\4.0.0\animate.min.css
+Content Type: text/css
+
+Uri: https://code.jquery.com/jquery-3.4.1.js
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\jquery-3.4.1.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.5.1.slim.min.js
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\jquery-3.5.1.slim.min.js
+Content Type: application/javascript
+
+Uri: https://everything-ev.up.railway.app/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\index.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/accounts/login/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\accounts\login\index.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/accounts/login/?next=/Charge-Pooling/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\accounts\login\index-2.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/accounts/login/?next=/Charging-Station/all-stations/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\accounts\login\index-1.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/accounts/login/?next=/Route-Your-Way/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\accounts\login\index-3.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/register/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\register\index.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/registerConsumer/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\registerConsumer\index.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/registerProvider/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\registerProvider\index.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/savings-calculator/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\savings-calculator\index.htm
+Content Type: text/html
+
+Uri: https://everything-ev.up.railway.app/static/userapp/bg.759341e74ba9.png
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\bg.759341e74ba9.png
+Content Type: image/png
+
+Uri: https://everything-ev.up.railway.app/static/userapp/car1.3d7329876dbf.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\car1.3d7329876dbf.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/economy.9ca276b7b197.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\economy.9ca276b7b197.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/energy.c3ab2ca4c64b.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\energy.c3ab2ca4c64b.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/evstyle.27774920eab4.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\evstyle.27774920eab4.css
+Content Type: text/css
+
+Uri: https://everything-ev.up.railway.app/static/userapp/green.6ed3702c8a27.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\green.6ed3702c8a27.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/health.72226a322cc2.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\health.72226a322cc2.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/login_style.53710b3c1c74.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\login_style.53710b3c1c74.css
+Content Type: text/css
+
+Uri: https://everything-ev.up.railway.app/static/userapp/money.2f28c4fae8bf.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\money.2f28c4fae8bf.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/rs_consumer.957808f9c37e.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\rs_consumer.957808f9c37e.css
+Content Type: text/css
+
+Uri: https://everything-ev.up.railway.app/static/userapp/rs_provider.b3eb9a3938fb.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\rs_provider.b3eb9a3938fb.css
+Content Type: text/css
+
+Uri: https://everything-ev.up.railway.app/static/userapp/sass/styles.fdd2262f893f.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\sass\styles.fdd2262f893f.css
+Content Type: text/css
+
+Uri: https://everything-ev.up.railway.app/static/userapp/stylelayout.ef41892495a4.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\stylelayout.ef41892495a4.css
+Content Type: text/css
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/Charge Pooling.84adbb016ef8.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\Charge Pooling.84adbb016ef8.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/charge pooling_art.a9055cc20fb8.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\charge pooling_art.a9055cc20fb8.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/charging stations.52312c3d62fe.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\charging stations.52312c3d62fe.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/charging stations_art.fe71a0d7f39a.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\charging stations_art.fe71a0d7f39a.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/consumer_art.fac0d9576d8b.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\consumer_art.fac0d9576d8b.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/front illustration.1a94da5138d2.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\front illustration.1a94da5138d2.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/logo-white.ee78654beb88.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\logo-white.ee78654beb88.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/logo.00fcffa89a50.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\logo.00fcffa89a50.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/logo_2.28eb7417cc52.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\logo_2.28eb7417cc52.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/provider_art.9a1ed3673cf2.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\provider_art.9a1ed3673cf2.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/route your way.b773130c5c94.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\route your way.b773130c5c94.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/route your way_art.d4905f3ba939.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\route your way_art.d4905f3ba939.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/sales.bd4a7685dbbd.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\sales.bd4a7685dbbd.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/sales_art.a55b8bdb008c.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\sales_art.a55b8bdb008c.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/savings calculator.ee60b3f69bbb.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\savings calculator.ee60b3f69bbb.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/savings_art.f0284ce7dcbf.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\savings_art.f0284ce7dcbf.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/why choose ev.db64bc96436e.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\why choose ev.db64bc96436e.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/svg/why choose ev_art.afb1172ee8a6.svg
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\svg\why choose ev_art.afb1172ee8a6.svg
+Content Type: image/svg+xml
+
+Uri: https://everything-ev.up.railway.app/static/userapp/user.72e727e73e72.png
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\static\userapp\user.72e727e73e72.png
+Content Type: image/png
+
+Uri: https://everything-ev.up.railway.app/why-choose-ev/
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\why-choose-ev\index.htm
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto:wght@400;500;700&display=swap
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Amaranth:400,400i,700|Artifika
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/amaranth/v18/KtkoALODe433f0j1zMnALdKCww.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\amaranth\v18\KtkoALODe433f0j1zMnALdKCww.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/amaranth/v18/KtkpALODe433f0j1zMF-OMWl42Q.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\amaranth\v18\KtkpALODe433f0j1zMF-OMWl42Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/amaranth/v18/KtkuALODe433f0j1zMnFHdU.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\amaranth\v18\KtkuALODe433f0j1zMnFHdU.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/artifika/v21/VEMyRoxzronptCuxu5Wq7DQ.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\artifika\v21\VEMyRoxzronptCuxu5Wq7DQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/notosansjp/v42/-F62fjtqLzI2JPCgQBnw7HFowA.otf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\notosansjp\v42\-F62fjtqLzI2JPCgQBnw7HFowA.otf
+Content Type: font/otf
+
+Uri: https://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQei0q1A.otf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\notosansjp\v42\-F6pfjtqLzI2JPCgQBnw7HFQei0q1A.otf
+Content Type: font/otf
+
+Uri: https://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQMisq1A.otf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\notosansjp\v42\-F6pfjtqLzI2JPCgQBnw7HFQMisq1A.otf
+Content Type: font/otf
+
+Uri: https://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQQi8q1A.otf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\notosansjp\v42\-F6pfjtqLzI2JPCgQBnw7HFQQi8q1A.otf
+Content Type: font/otf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\css\font-awesome.min-1.css
+Content Type: text/css
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-1.svg
+Content Type: image/svg+xml
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-1.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-1.woff2
+Content Type: font/woff2
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-1.woff
+Content Type: font/woff
+
+Uri: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\bootstrap\4.4.1\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\bootstrap\4.4.1\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1
+File Name: C:\Downloaded Web Sites\everything-ev.up.railway.app\dialogflow-console\fast\messenger\bootstrap.js
+Content Type: text/javascript
+
