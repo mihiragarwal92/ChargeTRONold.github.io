@@ -139,7 +139,7 @@ If your version is not upto date, follow these steps to upgrade:
 <img  src="https://github.com/mihiragarwal92/ChargeTRON.github.io/blob/main/images/WhatsApp%20Image%202023-03-17%20at%2012.50.47%20PM%20(1).jpeg">
 </div>
   
-**NOVELTY**
+  <H2>**NOVELTY**</h2><BR>
 Electric vehicle (EV) services offer several novel features that differentiate them from traditional gasoline-powered vehicle services. Here are a few examples:
 Sustainability initiatives: EV services can have a strong focus on sustainability, with initiatives such as using renewable energy to power their charging stations, using recycled materials in their vehicles and charging infrastructure, and offering car-sharing programs to reduce the number of cars on the road.
 Charging infrastructure: EV services need to provide charging infrastructure to their customers. This infrastructure can take the form of public charging stations or charging stations at the company's own facilities. The design and implementation of the charging infrastructure is crucial to providing a convenient and reliable service to EV customers.
